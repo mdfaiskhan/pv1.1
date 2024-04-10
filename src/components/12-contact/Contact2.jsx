@@ -3,7 +3,8 @@ import React from 'react'
 
 const Contact2 = ({ contacts, handleDelete }) => {
   return (
-    <div>
+    <>
+    {/* <div>
       <h2>Contact Listsdc</h2>
       <ul>
         {contacts.map((contact) => (
@@ -17,7 +18,8 @@ const Contact2 = ({ contacts, handleDelete }) => {
           </li>
         ))}
       </ul>
-    </div>
+    </div> */}
+    </>
   );
 };
 

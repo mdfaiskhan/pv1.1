@@ -17,7 +17,7 @@ const Main = () => {
                     
                      <p class="font3">I love to work in UI/UX designng. I always try my best to<br/> make good UI with the best UX.</p>
                       <br/>
-                        <button type="button" class="button-1">Hire Me</button>
+                        <button type="button" class="button-1" ><a href="#contact">Hire Me</a></button>
                     </div>
             </div>
           

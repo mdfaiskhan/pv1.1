@@ -1,14 +1,15 @@
-import React from 'react';
 import '../1-header/header-style.css'; // Import your CSS file here
 import  image2 from './bicon.png'
 import  image from './moon.png'
+import React, { useState } from 'react';
 
 const Header = () => {
+    const [activeNav, setActiveNav] = useState('#home');
     return (
         <header className="fixed-header">
             <div className="container">
                 <div className="nav">
-                    <div className="icon"><img src={image2} /></div>
+                    <div className="icon"><a href="/"><img src={image2} /></a></div>
                     <div className="hidden">
                         <section className="top-nav">
                             <input id="menu-toggle" type="checkbox" />
@@ -16,21 +17,21 @@ const Header = () => {
                                 <div className='menu-button'></div>
                             </label>
                             <ul className="menu">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">MyIntro</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Pages</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="/" onClick={()=> setActiveNav('/')} className={activeNav === '/' ? 'active' : ''}>Home</a></li>
+                            <li><a href="#about" className={activeNav === '/About' ? 'active' : ''}>MyIntro</a></li>
+                            <li><a href="#features">Services</a></li>
+                            <li><a href="#second-page">Pages</a></li>
+                            <li><a href="#contact">Contact</a></li>
                             </ul>
                         </section>
                     </div>
                     <div className="nav-bar">
                         <ul>
-                            <li><a href="/">Home</a></li>
-                            <li><a href="/about">MyIntro</a></li>
-                            <li><a href="services">Services</a></li>
-                            <li><a href="pages">Pages</a></li>
-                            <li><a href="contact">Contact</a></li>
+                        <li><a href="/" onClick={()=> setActiveNav('/')} className={activeNav === '/' ? 'active' : ''}>Home</a></li>
+                            <li><a href="#about" className={activeNav === '/About' ? 'active' : ''}>MyIntro</a></li>
+                            <li><a href="#features">Services</a></li>
+                            <li><a href="#second-page">Pages</a></li>
+                            <li><a href="#contact">Contact</a></li>
                         </ul>
                         <div className="form1">
                             <input type="search" placeholder="Enter Keyword..." className="first-top-right-blank" />

@@ -15,27 +15,27 @@ const Footer = () => {
                     <div className="social-icons-main mt-4 pb-3">
                         <ul className="social-icons3">
                             <li>
-                                <a href="#facebook">
+                                <a href="https://www.facebook.com/">
                                     <i className="fab fa-facebook-f"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="#twitter">
+                                <a href="https://twitter.com/?lang=en #twitter">
                                     <i className="fab fa-twitter"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="#linkedinin">
+                                <a href="https://www.linkedin.com/in/mohammed-faisal-khan-911a01245/">
                                     <i className="fab fa-linkedin-in"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="#dribbble">
+                                <a href="https://github.com/mdfaiskhan">
                                     <i className="fab fa-dribbble"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="#instagram">
+                                <a href="https://www.instagram.com/">
                                     <i className="fab fa-instagram"></i>
                                 </a>
                             </li>

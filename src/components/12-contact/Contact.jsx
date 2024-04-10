@@ -72,12 +72,11 @@ const Contact = () => {
             </p>
             <div className="cont-details">
               <p>
-                <i className="fas fa-map-marker-alt"></i>10001, 5th Avenue,
-                12202 street, USA.
+                <i className="fas fa-map-marker-alt"></i>Jp Nagar , Bengaluru
               </p>
               <p>
                 <i className="fas fa-phone-alt"></i>
-                <a href="tel:+1(21) 234 4567">+1(21) 112 7368</a>
+                <a href="tel:+1(21) 234 4567">+91 8618******</a>
               </p>
               <p>
                 <i className="fas fa-envelope-open-text"></i>
@@ -97,27 +96,27 @@ const Contact = () => {
             <h4 className="mb-3 mt-5">Follow Me</h4>
             <ul className="social-icons-contact">
               <li>
-                <a href="#twitter">
+                <a href="https://twitter.com/?lang=en #twitter">
                   <i className="fab fa-twitter"></i>
                 </a>
               </li>
               <li>
-                <a href="#facebook">
+                <a href="https://www.facebook.com/">
                   <i className="fab fa-facebook-f"></i>
                 </a>
               </li>
               <li>
-                <a href="#linkedinin">
+                <a href="https://www.linkedin.com/in/mohammed-faisal-khan-911a01245/">
                   <i className="fab fa-linkedin-in"></i>
                 </a>
               </li>
               <li>
-                <a href="#github">
+                <a href="https://github.com/mdfaiskhan">
                   <i className="fab fa-github"></i>
                 </a>
               </li>
               <li>
-                <a href="#instagram">
+                <a href="https://www.instagram.com/">
                   <i className="fab fa-instagram"></i>
                 </a>
               </li>

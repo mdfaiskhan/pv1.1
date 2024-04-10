@@ -18,35 +18,31 @@ function App() {
   return (
     <>
     <Router>
-      <Header />
+      <Header/>
+      {/* <Header />
       <Main/>
       <Companies/>
       <Exp/>
       <About/>
       <Contact/>
-      
-      <Footer/>
+      <Footer/> */}
    
 
-      {/* <Routes>
-    <Route path="/admin" element={<Contact2/>}>
-
-    </Route>
-    </Routes> */}
 
 
-      {/* <Routes>
+      <Routes>
         <Route path="/" element={
           <>
+
          <Main/>
           <Companies/>
           <Exp/>
           <About/>
-           <Qual/>
+          {/* <Qual/>
           <Skills/>
           <Project/>
           <Services/>
-          <Testimonials/>
+          <Testimonials/> */}
           <Contact/></>
         } />
         <Route path="/companies" element={<Companies />} />
@@ -59,7 +55,7 @@ function App() {
         <Route path="/testimonials" element={<Testimonials />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-      <Footer /> */}
+      <Footer />
     </Router>
    
     </>

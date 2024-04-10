@@ -1,6 +1,7 @@
 import React from 'react';
 import faisal from '../5-about/about.jpg'
 import '../5-about/about.css'
+import RS from '../5-about/resume.pdf'
 
 
 
@@ -51,7 +52,7 @@ const About = () => {
                                 </li>
                             </ul>
                         </div>
-                        <a href="#download" className="btn btn-style mt-5">Download CV</a>
+                        <a href={RS} download className="btn btn-style mt-5">Download CV</a>
                     </div>
                 </div>
             </div>
