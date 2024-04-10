@@ -1,0 +1,11 @@
+.btn-style {
+    padding: 12px 42px 14px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: var(--border-radius-full);
+    font-weight: 600;
+    outline: none;
+    border: none;
+    background: var(--primary-color);
+    transition: all 1.8s ease-in-out;
+}

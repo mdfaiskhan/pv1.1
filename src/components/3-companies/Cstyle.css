@@ -1,0 +1,257 @@
+.second-page {
+    width: 100%;
+    /* ' c' */
+  }
+  .second-page .second-top {
+    justify-content: center;
+    height: 20 vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    gap: 40px;
+  }
+  .second-page .second-top .second-top-2 {
+    height: 150px;
+    width: 150px;
+    background-image: url('../3-companies/paypal.png');
+    opacity: 0.3;
+    filter: grayscale(100%);
+    -o-border-image: 100px;
+       border-image: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .second-page .second-top .second-top-2:hover {
+    opacity: 1;
+    filter: grayscale(0%);
+  }
+  .second-page .second-top .second-top-3 {
+    height: 150px;
+    width: 150px;
+    opacity: 0.3;
+    filter: grayscale(100%);
+    -o-border-image: 100px;
+       border-image: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../3-companies/google.png');
+  }
+  .second-page .second-top .second-top-3:hover {
+    opacity: 1;
+    filter: grayscale(0%);
+  }
+  .second-page .second-top .second-top-4 {
+    opacity: 0.3;
+    filter: grayscale(100%);
+    height: 150px;
+    width: 150px;
+    opacity: 0.1;
+    -o-border-image: 100px;
+       border-image: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../3-companies/samsung.png');
+  }
+  .second-page .second-top .second-top-4:hover {
+    opacity: 1;
+    filter: grayscale(0%);
+  }
+  .second-page .second-top .second-top-5 {
+    opacity: 0.3;
+    filter: grayscale(100%);
+    height: 150px;
+    width: 150px;
+    -o-border-image: 100px;
+       border-image: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../3-companies/lenovo.png');
+  }
+  .second-page .second-top .second-top-5:hover {
+    opacity: 1;
+    filter: grayscale(0%);
+  }
+  .second-page .second-top .second-top-6 {
+    height: 150px;
+    width: 150px;
+    opacity: 0.1;
+    filter: grayscale(100%);
+    -o-border-image: 100px;
+       border-image: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../3-companies/amazon.png');
+  }
+  .second-page .second-top .second-top-6:hover {
+    opacity: 1;
+    filter: grayscale(0%);
+  }
+  .second-page .bottom-2 {
+    height: 65vh;
+    width: 100%;
+  }
+  .second-page .bottom-2 .container-1-1 {
+    height: 80%;
+    width: 80%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: row;
+  }
+  .second-page .bottom-2 .container-1-1 .left-2 {
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+  }
+  .second-page .bottom-2 .container-1-1 .left-2 .exp {
+    display: flex;
+    flex-direction: column;
+  }
+  .second-page .bottom-2 .container-1-1 .left-2 .exp h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 90px;
+  }
+  .second-page .bottom-2 .container-1-1 .left-2 .exp h6 {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+  }
+  .second-page .bottom-2 .container-1-1 .right-2 {
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .second-page .bottom-2 .container-1-1 .right-2 .right-up {
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    height: 30%;
+  }
+  .second-page .bottom-2 .container-1-1 .right-2 .right-down {
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .second-page .bottom-2 .container-1-1 .right-2 .right-down .down-1 {
+    width: 33.33%;
+    background-color: #332e2e;
+  }
+  @media screen and (max-width: 935px) {
+    .second-page .second-top .second-top-2 {
+      height: 100px;
+      width: 100px;
+    }
+    .second-page .second-top .second-top-3 {
+      height: 100px;
+      width: 100px;
+    }
+    .second-page .second-top .second-top-4 {
+      height: 100px;
+      width: 100px;
+    }
+    .second-page .second-top .second-top-5 {
+      height: 100px;
+      width: 100px;
+    }
+    .second-page .second-top .second-top-6 {
+      height: 100px;
+      width: 100px;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .second-page .second-top .second-top-2 {
+      height: 75px;
+      width: 75px;
+    }
+    .second-page .second-top .second-top-3 {
+      height: 75px;
+      width: 75px;
+    }
+    .second-page .second-top .second-top-4 {
+      height: 75px;
+      width: 75px;
+    }
+    .second-page .second-top .second-top-5 {
+      height: 75px;
+      width: 75px;
+    }
+    .second-page .second-top .second-top-6 {
+      height: 75px;
+      width: 75px;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .second-page .second-top {
+      display: grid;
+      grid-template-columns: repeat(3, auto);
+      gap: 30px;
+    }
+  }
+  @media screen and (max-width: 300px) {
+    .second-page .second-top {
+      display: grid;
+      grid-template-columns: repeat(2, auto);
+      gap: 30px;
+    }
+  }/*# sourceMappingURL=portfolio2.css.map */@media screen and (max-width: 935px) {
+  .second-page .second-top .second-top-2 {
+    height: 100px;
+    width: 100px;
+  }
+  .second-page .second-top .second-top-3 {
+    height: 100px;
+    width: 100px;
+  }
+  .second-page .second-top .second-top-4 {
+    height: 100px;
+    width: 100px;
+  }
+  .second-page .second-top .second-top-5 {
+    height: 100px;
+    width: 100px;
+  }
+  .second-page .second-top .second-top-6 {
+    height: 100px;
+    width: 100px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .second-page .second-top .second-top-2 {
+    height: 75px;
+    width: 75px;
+  }
+  .second-page .second-top .second-top-3 {
+    height: 75px;
+    width: 75px;
+  }
+  .second-page .second-top .second-top-4 {
+    height: 75px;
+    width: 75px;
+  }
+  .second-page .second-top .second-top-5 {
+    height: 75px;
+    width: 75px;
+  }
+  .second-page .second-top .second-top-6 {
+    height: 75px;
+    width: 75px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .second-page .second-top {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 30px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .second-page .second-top {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 30px;
+  }
+}/*# sourceMappingURL=portfolio2.css.map */

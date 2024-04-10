@@ -1,0 +1,68 @@
+
+.w3l-bottom-grids-6 .icon-style i {
+    background: var(--primary-color);
+    font-size: 26px;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    line-height: 65px;
+    color: #fff;
+    text-align: center;
+    margin: 50px 0 30px;
+    transition: .3s;
+}
+
+.w3l-bottom-grids-6 .area-box:hover, .w3l-bottom-grids-6 .area-box.active {
+    background: var(--secondary-color);
+    transition: .3s;
+}
+
+.w3l-bottom-grids-6 .area-box {
+    padding: 40px 30px 30px;
+    border-radius: var(--border-radius);
+    background-color: var(--bg-light);
+    transition: .3s;
+}
+.w3l-bottom-grids-6 h4 a.title-head {
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+    color: var(--heading-color);
+}
+.area-box.active h4 a.title-head {
+    color: var(--wh-dar-color);
+    transition: .3s;
+}
+.w3l-bottom-grids-6 .area-box.active a.more {
+    color: var(--wh-dar-color);
+    opacity: 1;
+    transition: .3s;
+}
+.w3l-bottom-grids-6 .area-box:hover h4 a.title-head, .w3l-bottom-grids-6 .area-box.active h4 a.title-head {
+    color: var(--wh-dar-color);
+    transition: .3s;
+}
+.w3l-bottom-grids-6 .area-box:hover a.more, .w3l-bottom-grids-6 .area-box.active a.more {
+    color: var(--wh-dar-color);
+    opacity: 1;
+    transition: .3s;
+}
+h4.ab-exper-count {
+    font-size: 7em;
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+@media (min-width: 992px){
+.ps-lg-4 {
+    padding-left: 1.5rem !important;
+}}
+@media (min-width: 576px){
+.mb-sm-4 {
+    margin-bottom: 1.5rem !important;
+}}
+p.ab-content {
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
