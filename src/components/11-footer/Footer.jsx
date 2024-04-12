@@ -43,8 +43,8 @@ const Footer = () => {
                     </div>
                 </div>
                 {/* copyright */}
-                <p className="copy-right-w3 text-white mt-5 pt-4">© 2021 Biodata. All rights reserved | Design by
-                    <a href="https://w3layouts.com" target="_blank"> W3layouts.</a>
+                <p className="copy-right-w3 text-white mt-5 pt-4">© 2024 | Design by Mohammed Faisal khan.
+                    {/* <a href="https://w3layouts.com" target="_blank"> Mohammed Faisal khan.</a> */}
                 </p>
             </div>
         </footer>

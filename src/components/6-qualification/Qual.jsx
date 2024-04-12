@@ -1,9 +1,10 @@
 import React from 'react'
+import '../6-qualification/qualification.css'
 
 const Qual = () => {
   return (
-    <div>
-      Qualification
+    <div className="">
+     qual
     </div>
   )
 }

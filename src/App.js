@@ -38,11 +38,11 @@ function App() {
           <Companies/>
           <Exp/>
           <About/>
-          {/* <Qual/>
+          <Qual/>
           <Skills/>
           <Project/>
           <Services/>
-          <Testimonials/> */}
+          <Testimonials/>
           <Contact/></>
         } />
         <Route path="/companies" element={<Companies />} />

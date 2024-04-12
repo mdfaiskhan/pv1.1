@@ -202,3 +202,11 @@ input, button, select, optgroup, textarea {
     background: var(--primary-color);
     transition: all 1.8s ease-in-out;
 }
+.success-message{
+    display: flex;
+
+    p{
+        background-color: aqua;
+      margin-left: 70%;
+    }
+}
