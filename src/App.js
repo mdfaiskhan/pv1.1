@@ -41,8 +41,8 @@ function App() {
           {/* <Qual/> */}
           <Skills/>
           <Project/>
-          {/* <Services/>
-          <Testimonials/> */}
+          <Services/>
+          <Testimonials/>
           <Contact/></>
         } />
         <Route path="/companies" element={<Companies />} />

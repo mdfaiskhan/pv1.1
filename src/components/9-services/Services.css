@@ -1,0 +1,50 @@
+.services{
+    background-color: #ebf4f5;
+}
+
+.services .feature-gd {
+    padding: 30px 20px;
+    text-align: left;
+    border-radius: var(--border-radius);
+    padding-left: 40px;
+    position: relative;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 1px solid var(--border-color-light);
+    background-color: var(--bg-color);
+    transition: all .4s ease-out 0s;
+}
+
+
+
+
+.services .icon {
+    width: 65px;
+    height: 65px;
+    line-height: 65px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 26px;
+    display: inline-block;
+    position: absolute;
+    left: -40px;
+    background: var(--bg-color);
+    bottom: 29px;
+    color: var(--primary-color);
+    box-shadow: 0 0 14px -5px rgb(0 0 0 / 13%);
+    border: 1px solid var(--border-color-light);
+    transition: .3s ease;
+}
+
+
+
+
+* {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
