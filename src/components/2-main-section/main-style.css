@@ -51,8 +51,8 @@
 }
 .button-1 a{
   font-size: 15px;
-                            text-decoration: none;
-                              color: #332e2e; 
+     text-decoration: none;
+        color: #332e2e; 
 }
 @media screen and (max-width: 375px) {
   .First-page .container-1 .left-1 div .font2 {
