@@ -3,9 +3,12 @@ import '../6-qualification/qualification.css'
 
 const Qual = () => {
   return (
-    <div className="">
-     qual
-    </div>
+    <section >
+      <div className="container">
+        <div className="heading"></div>
+        <div className="footing"></div>
+      </div>
+    </section>
   )
 }
 

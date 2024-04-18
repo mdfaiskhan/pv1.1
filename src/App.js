@@ -1,5 +1,5 @@
-import React from "react";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React, { useEffect } from "react";
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Header from "./components/1-header/Header";
 import Testimonials from "./components/10-testimonials/Testimonials";
 import Footer from "./components/11-footer/Footer";
@@ -16,35 +16,10 @@ import Contact2 from "./components/12-contact/Contact2";
 
 function App() {
   return (
-    <>
     <Router>
-      <Header/>
-      {/* <Header />
-      <Main/>
-      <Companies/>
-      <Exp/>
-      <About/>
-      <Contact/>
-      <Footer/> */}
-   
-
-
-
+      <Header />
       <Routes>
-        <Route path="/" element={
-          <>
-
-         <Main/>
-          <Companies/>
-          <Exp/>
-          <About/>
-          {/* <Qual/> */}
-          <Skills/>
-          <Project/>
-          <Services/>
-          <Testimonials/>
-          <Contact/></>
-        } />
+        <Route path="/" element={<Home />} />
         <Route path="/companies" element={<Companies />} />
         <Route path="/experience" element={<Exp />} />
         <Route path="/about" element={<About />} />
@@ -57,9 +32,31 @@ function App() {
       </Routes>
       <Footer />
     </Router>
-   
+  );
+}
+
+function Home() {
+  useDocumentTitle("Home");
+  return (
+    <>
+      <Main />
+      <Companies />
+      <Exp />
+      <About />
+      <Qual />
+      <Skills />
+      <Project />
+      <Contact />
     </>
   );
+}
+
+function useDocumentTitle(title) {
+  const location = useLocation();
+
+  useEffect(() => {
+    document.title = title + " | Your Portfolio";
+  }, [location, title]);
 }
 
 export default App;
