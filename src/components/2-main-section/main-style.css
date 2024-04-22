@@ -1,7 +1,7 @@
 .First-page {
   width: 100%;
   height: 100vh;
-  background-image: url(banner2.jpg);
+  background-image: url(Banner6.jpg);
   position: relative;
   background-size: cover;
   background-position: center;
@@ -40,7 +40,7 @@
 .First-page .container-1 .left-1 div .button-1 {
   margin-left: 10px;
   border-radius: 20px;
-  background-color: #F64648;
+  background-color: #1054b9;
   border: none;
   padding: 10px 20px;
   color: #fff;
@@ -52,7 +52,7 @@
 .button-1 a{
   font-size: 15px;
      text-decoration: none;
-        color: #332e2e; 
+        color: #fff8f8; 
 }
 @media screen and (max-width: 375px) {
   .First-page .container-1 .left-1 div .font2 {

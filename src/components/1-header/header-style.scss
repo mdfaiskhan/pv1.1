@@ -7,7 +7,8 @@
 
 // Your SCSS code here
 
-
+.nav-colored { background-color:#ffffff; }
+.nav-transparent { background-color:transparent;}
 
 
 *{
@@ -53,7 +54,7 @@ header{
             .icon{
                 img{
                 border: 2px solid #000;
-                border-color: #F64648; 
+                border-color: #1054b9; 
                 width: 50px ;
                 height: 50px; 
                 background-image: url('./bicon.png');
@@ -107,16 +108,17 @@ header{
                          a:hover{
                             // font-size: 1.05rem;
                             border: 200 px;
-                           color: #F64648;
+                           color: #1054b9;
                             // border-radius: 20px;    
                          
                          }
                     }
                 }
                 .form1{
+                  display: flex !important;
                     .first-top-right-blank {
                         margin-left: 10px;
-                        border-radius: 20px; 
+                        border-radius: 20px 0 0 20px;
                         width: 170px;
                         background-color: #ffffff; 
                         border: none; 
@@ -133,8 +135,8 @@ header{
                         font-size: 12px;
                         width: 95px;
                         //  
-                        border-radius: 20px; 
-                        background-color: #F64648; 
+                        border-radius: 0 20px 20px 0;
+                        background-color: #1054b9; 
                         border: none; 
                         padding: 10px 20px; 
                         color: #fff; 
@@ -147,7 +149,7 @@ header{
                 }
             }
             .icon-2{
-                font-size : 20px;
+           display: none;
             }
         }
     }
@@ -167,6 +169,7 @@ header{
     .fixed-header{
         .container{
             .nav{
+              width: auto;
                 display: flex;
                 justify-content: space-evenly;
                 @import url(https://fonts.googleapis.com/css?family=Raleway);
@@ -177,10 +180,11 @@ header{
   align-items: center;
   justify-content: space-between;
   background-color: #00BAF0;
-  background: #F64648;
+  background: #1054b9;
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #FFF;
-  height: 20px;
+  height: 50px;
+  width: 80%;
   padding: 1em;
 }
 
@@ -193,6 +197,7 @@ header{
 }
 
 .menu > li {
+  
     list-style: none;
   margin: 0 1rem;
   overflow: hidden;
@@ -255,12 +260,14 @@ header{
   .menu {
     position: absolute;
     top: 0;
-    margin-top: 50px;
+    margin-top: 60px;
     left: 0;
     flex-direction: column;
     width: 100%;
     justify-content: center;
     align-items: center;
+    padding: 20px;
+    // margin: 20px;
   }
   #menu-toggle ~ .menu li {
     height: 0;
@@ -270,7 +277,7 @@ header{
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
   }
   #menu-toggle:checked ~ .menu li {
-    border: 1px solid #ffffff;
+    // border: 1px solid #0a0808;
     height: 2.5em;
     padding: 0.5em;
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
@@ -282,8 +289,8 @@ header{
     padding: 0.5em 0;
     width: 100%;
     color: white;
-
-    background-color:  #F64648;
+    box-shadow: 0 6px 19px rgba(0, 0, 0, 0.05);
+    background-color:  #1054b9;
   }
   .menu > li:not(:last-child) {
     border-bottom: 1px solid #0f0f0f;
@@ -340,7 +347,7 @@ header{
             width: 50px;
             //  
             border-radius: 20px; 
-            background-color: #F64648; 
+            background-color: #1054b9; 
             border: none; 
             padding: 10px 20px; 
             color: #fff; 

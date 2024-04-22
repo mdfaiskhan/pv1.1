@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #F54748;
+    --primary-color: #06357c;
     --secondary-color: #131917;
     --font-color: #363636;
     --bg-color: #fff;
@@ -35,7 +35,7 @@
     --bs-primary: #0d6efd;
     --bs-secondary: #6c757d;
     --bs-success: #198754;
-    --bs-info: #0dcaf0;
+    --bs-info: #0dcaf0; 
     --bs-warning: #ffc107;
     --bs-danger: #dc3545;
     --bs-light: #f8f9fa;

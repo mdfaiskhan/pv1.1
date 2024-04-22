@@ -56,11 +56,11 @@ const Contact = () => {
   };
 
   return (
-    <section className="w3l-contact py-5" id="contact">
+    <section className="contact py-5" id="contact">
       <div className="container py-lg-5 py-4">
-        <div className="title-heading-w3 text-center mb-sm-5 mb-4">
-          <h5 className="title-small">Get In Touch</h5>
-          <h3 className="title-style">Contact Me</h3>
+        <div className="contact-head text-center mb-sm-5 mb-4">
+          <h5 className="short">Get In Touch</h5>
+          <h3 className="style">Contact Me</h3>
         </div>
         <div className="row contact-block">
           <div className="col-md-6 contact-left pe-lg-5">

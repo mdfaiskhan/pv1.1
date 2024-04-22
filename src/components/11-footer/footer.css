@@ -1,4 +1,4 @@
-.footer-w3ls {
+.footer {
     background: #131917;
 }
 .text-center {
@@ -43,7 +43,7 @@
 a.footer-logo {
     margin: 0;
     padding: 0;
-    font-size: 34px;
+    font-size: 27px;
     font-weight: 700;
     color: var(--primary-color);
     text-transform: uppercase;

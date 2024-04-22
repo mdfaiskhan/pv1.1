@@ -3,10 +3,10 @@ import '../11-footer/footer.css'
 
 const Footer = () => {
     return (
-        <footer className="footer-w3ls text-center py-5">
+        <footer className="footer text-center py-5">
             <div className="container pt-4">
                 <div className="mx-auto" style={{ maxWidth: '600px' }}>
-                    <a href="index.html" className="footer-logo py-1">
+                    <a href="/" className="footer-logo py-1">
                         <i className="fas fa-bold"></i>.
                     </a>
                     <p className="mt-4 text-white">Itaque earum rerum hic tenetur asaItaque

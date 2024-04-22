@@ -20,11 +20,12 @@
 .text-center {
     text-align: center !important;
 }
+
 .mb-4 {
     margin-bottom: 1.5rem !important;
 }
 
-h5.title-small {
+h5.short {
     color: var(--primary-color);
     font-size: 15px;
     text-transform: uppercase;
@@ -32,11 +33,11 @@ h5.title-small {
 
 
 @media (max-width: 991px){
-h3.title-style {
+h3.style {
     font-size: 30px;
     line-height: 40px;
 }}
-h3.title-style {
+h3.style {
     font-size: 34px;
     line-height: 44px;
     font-weight: bold;

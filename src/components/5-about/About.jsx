@@ -1,7 +1,8 @@
 import React from 'react';
-import faisal from '../5-about/about.jpg'
+import faisal from '../5-about/pic2.jpeg'
 import '../5-about/about.css'
 import RS from '../5-about/resume.pdf'
+
 
 
 

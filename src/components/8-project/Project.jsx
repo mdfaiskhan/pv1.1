@@ -10,7 +10,7 @@ import './Project.css';
 const Project = () => {
   return (
     <>
-      <section className="w3l-gallery pb-5" id="gallery">
+      <section className="Project pb-5" >
         <div className="container py-md-5 py-4">
           <div className="title-heading-w3 text-center mb-sm-5 mb-4">
             <h5 className="title-small mb-1">Portfolio</h5>
