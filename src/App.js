@@ -26,6 +26,7 @@ function App() {
       <Companies/>
       <Exp/>
       <About/>
+      <Skills/>
       <Qual/>
       <Project/>
       <Services/>

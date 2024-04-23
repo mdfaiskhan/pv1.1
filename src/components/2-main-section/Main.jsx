@@ -11,9 +11,9 @@ const Main = () => {
         <div class="container-1">
             <div class="left-1">
                 <div>
-                     <p class="font1">Hi, I'm Mary Ateer</p>
+                     <p class="font1">Hi, I'm Mohammed Faisal Khan</p>
                      
-                     <h1 class="font2">DESIGNER</h1>
+                     <h1 class="font2">DEVELOPER</h1>
                     
                      <p class="font3">I love to work in UI/UX designng. I always try my best to<br/> make good UI with the best UX.</p>
                       <br/>

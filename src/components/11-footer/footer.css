@@ -1,5 +1,5 @@
 .footer {
-    background: #131917;
+    background: #06357c;
 }
 .text-center {
     text-align: center !important;
@@ -170,3 +170,35 @@ a {
     text-rendering: auto;
     line-height: 1;
 }
+
+
+
+
+
+
+
+
+
+.footer-logo {
+    display: inline-block;
+    padding: 15px 30px;
+    background:#1054b9; /* Blue gradient */
+    color: #c9c9c9; /* Set text color to blue */
+    text-decoration: none;
+    border-radius: 100px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .footer-logo:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .icon-stylistic {
+   color: white;
+    margin: 0 5px;
+  }
+  

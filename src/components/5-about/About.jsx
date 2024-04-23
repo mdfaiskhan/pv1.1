@@ -28,21 +28,21 @@ const About = () => {
                                 <li className="name-style">Name</li>
                                 <li>:</li>
                                 <li>
-                                    <p>Mary Ateer</p>
+                                    <p>Mohammed Faisal Khan</p>
                                 </li>
                             </ul>
                             <ul className="single-info">
                                 <li className="name-style">Age</li>
                                 <li>:</li>
                                 <li>
-                                    <p>26 Years</p>
+                                    <p>22 Years</p>
                                 </li>
                             </ul>
                             <ul className="single-info">
                                 <li className="name-style">From</li>
                                 <li>:</li>
                                 <li>
-                                    <p>London, UK</p>
+                                    <p>Bangalore, India</p>
                                 </li>
                             </ul>
                             <ul className="single-info">

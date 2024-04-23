@@ -10,11 +10,11 @@ const Exp = () => {
         <div className="container pt-lg-4">
           <div className="grids-area-hny main-cont-wthree-fea row">
             <div className="col-md-3 col-sm-4 ps-xl-5">
-              <h4 className="ab-exper-count mb-sm-4 ps-lg-4" id='qwe'>22</h4>
+              <h4 className="ab-exper-count mb-sm-4 ps-lg-4" id='qwe'>1+</h4>
               <p className="ab-content ps-lg-4" id='qwer'>years of experience working</p>
             </div>
             <div className="col-xl-8 col-md-9 col-sm-8 offset-xl-1 ps-xl-0 pe-xl-5 mt-sm-0 mt-4">
-              <h3 className="title-style mb-sm-5 mb-4">I'm a designer & developer with a passion for web design</h3>
+              <h3 className="title-style mb-sm-5 mb-4">I'm a designer & developer with a passion for web development</h3>
               <div className="row">
                 <div className="col-lg-4 col-md-6 grids-feature">
                   <div className="area-box active">
